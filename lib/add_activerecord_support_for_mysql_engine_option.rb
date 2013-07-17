@@ -1,0 +1,4 @@
+require "add_activerecord_support_for_mysql_engine_option/core_ext"
+
+module AddActiverecordSupportForMysqlEngineOption
+end
