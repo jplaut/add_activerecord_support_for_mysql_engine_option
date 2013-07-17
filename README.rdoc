@@ -1,3 +1,5 @@
 = AddActiverecordSupportForMysqlEngineOption
 
-This project rocks and uses MIT-LICENSE.
+This is a plugin for Rails 3 that modifies Active Record ruby schema dump to support adding an "engine" option to mysql migrations. This is necessary when creating tables that require a mysql engine to be specified, such as when creating spatial indexes.
+
+To use, simply add this gem to your gemfile and bundle install.
